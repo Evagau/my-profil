@@ -1,0 +1,200 @@
+body{
+	background-color: rgb(237, 235, 232);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	padding: 5px;
+
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Lobster;
+	color: skyblue;
+	margin: 20px;
+	text-align: center;
+}
+
+h3{
+	font-size: 30px;
+	font-family: Caveat;
+	color: rgb(43, 89, 204);
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.modif_img {
+	border-radius: 150px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.resume {
+	border-radius: 50px;
+	border: solid rgb(43, 89, 204) 1px;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+.center_img {
+	display: flex;
+	justify-content: center;
+}
+
+.div2{
+	border: solid black 3px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 30px;
+	margin-top: 40px;
+	margin-right: 70px;
+	margin-left: 70px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	flex-direction: column;
+	display: flex;
+}
+
+.div3{
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+
+
+.experiences {
+	margin: 0 20px;
+	margin-top: 20px;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+
+.boite1{
+	border: solid rgb(43, 89, 204) 3px;
+	margin: 30px;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: rgb(222, 222, 222);
+}
+
+.boite2{
+	border: solid rgb(43, 89, 204) 3px;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(222, 222, 222);
+}
+
+.toto{
+
+	display: flex;
+	margin-left: 30px;
+}
+
+.img1{
+	width: 50px;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.un{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	
+}
+
+.nom{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.date{
+	font-size: 13px;
+	font-family: Roboto;
+
+}
+
+.matiere{
+	font-family: Roboto;
+	font-size: 13px;
+}
+
+.skillsbar_box{
+  padding:20px;
+}
+.container_skillsbar {
+  width: 100%;
+  background-color: grey;
+}
+
+.part1{
+	border: solid;
+	background-color: rgb(255, 255, 255);
+	margin: 0 80px;
+	margin-top: 30px;
+	box-shadow: 5px 5px 60px 10px rgb(0 0 0 / 96%);
+	border-radius: 10px;
+}
+
+.border {
+	font-size: 30px;
+	font-family: Caveat;
+	color: rgb(43, 89, 204);
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skills1 {
+  width: 100%;
+  background-color: rgb(0, 78, 163);
+}
+
+.skills2 {
+  width: 70%;
+  background-color: rgb(18, 116, 222);
+}
+
+
+.skills3 {
+  width: 65%;
+  background-color: rgb(62, 143, 230);
+}
+
+
+.skills4 {
+  width: 10%;
+  background-color: rgb(83, 154, 230);
+}
+
+@media (max-device-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  .container, .experiences{
+  	display: block;
+  	padding: 30px;
+  	margin: 30px;
+
+  }
+  
+  }
